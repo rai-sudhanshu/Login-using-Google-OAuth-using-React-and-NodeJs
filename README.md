@@ -24,9 +24,9 @@ Run npm start to start the application.
 
 **Method	url	Description**
 
-GET	/payments/:iban	to search bank payments based on a specific IBAN
-GET	/invoice	to get all invoices
-GET	/invoice/:id	to get a specific invoice details
-POST	/invoice/:id	to update a specific invoice
-POST	/invoice	to insert a new invoice
-DELETE	/invoice/:id	to delete a invoice
+**GET	/payments/:**iban	to search bank payments based on a specific IBAN
+**GET	/invoice:	to get all invoices
+GET	/invoice/**:id	to get a specific invoice details
+**POST	/invoice/:id**	to update a specific invoice
+**POST	/invoice**	to insert a new invoice
+**DELETE	/invoice/:**id	to delete a invoice
